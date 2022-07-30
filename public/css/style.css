@@ -1,0 +1,60 @@
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid #333;
+
+}
+
+tr:first-child td {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+td {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+tr:first-child:hover {
+    background-color: #fff;
+    color: black;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+}
+
+input, textarea {
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    background-color: #1d1d1d;
+    color: #fff;
+    border: none;
+}
+
+
+button:hover {
+    opacity: 0.8s;
+}
